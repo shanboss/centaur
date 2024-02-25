@@ -118,9 +118,7 @@ export default function LineGraphTailwind() {
       <div>
         <div className="text-4xl text-blue-900 font-bold">
           Member Data
-          <Typography variant="h7" color="gray">
-            Click on a category label to remove from display
-          </Typography>
+          <div>Click on a category label to remove from display</div>
         </div>
       </div>
       <Chart {...chartConfig} />
